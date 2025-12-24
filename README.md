@@ -46,6 +46,79 @@ This tool is designed for students, engineers, and anyone exploring thermodynami
 - Includes robust input validation and error handling  
 - Menu‑driven CLI with clean, readable formatting  
 
+## 📊 Program Flowchart
+
++-----------------------------+
+|          START              |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|   Display Main Menu         |
+|   (1–7 options)             |
++--------------+--------------+
+               |
+               v
++-----------------------------+
+|  Get user choice (1–7)      |
++--------------+--------------+
+               |
+               v
+        +------+------+
+        |             |
+        v             v
+ +----------------+  +----------------------+
+ |  Choice == 1   |  |  Choice == 2–6      |
+ |  Calculate     |  |  Other menu options |
+ |  Cooling Time  |  |  (Learn, Estimate k,|
+ +-------+--------+  |  Open/Clear Log,    |
+         |           |  About)             |
+         |           +----------+----------+
+         |                      |
+         |                      v
+         |           +-----------------------------+
+         |           | Perform selected action     |
+         |           | (show info / compute /     |
+         |           | open file / clear log)     |
+         |           +-------------+--------------+
+         |                         |
+         |                         v
+         |              +------------------------+
+         |              | Return to Main Menu    |
+         |              +-----------+------------+
+         |                          ^
+         |                          |
+         v                          |
++-----------------------------+     |
+|  Cooling Time Workflow      |     |
++-----------------------------+     |
+|  • Ask for inputs OR        |     |
+|    use real-world preset    |     |
+|  • Validate inputs          |     |
+|  • Compute cooling time     |     |
+|  • Let user choose units    |     |
+|    (minutes/seconds/hours)  |     |
+|  • Ask: show graph (y/n)?   |     |
+|  • If yes: plot graph       |     |
+|  • Log inputs + results     |
++-------------+---------------+
+              |
+              v
++-----------------------------+
+|  Return to Main Menu        |
++-------------+---------------+
+              ^
+              |
+      +-------+--------+
+      | Choice == 7    |
+      | Exit Program   |
+      +-------+--------+
+              |
+              v
++-----------------------------+
+|            END              |
++-----------------------------+
+
 ## 🖥️ Demo Output
 
 ```
