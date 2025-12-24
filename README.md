@@ -47,7 +47,7 @@ This tool is designed for students, engineers, and anyone exploring thermodynami
 - Menu‑driven CLI with clean, readable formatting  
 
 ## 📊 Program Flowchart
-
+```
 +-----------------------------+
 |          START              |
 +--------------+--------------+
@@ -118,7 +118,7 @@ This tool is designed for students, engineers, and anyone exploring thermodynami
 +-----------------------------+
 |            END              |
 +-----------------------------+
-
+```
 ## 🖥️ Demo Output
 
 ```
